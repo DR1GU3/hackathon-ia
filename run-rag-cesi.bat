@@ -1,6 +1,6 @@
 @echo off
 echo === Installation des dépendances Python ===
-
+pip install -r requirements.txt
 
 echo === Lancement du backend (Uvicorn) ===
 start cmd /k "uvicorn backend:app --reload"
